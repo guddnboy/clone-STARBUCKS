@@ -1,0 +1,50 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+.head-menu{
+    justify-content: space-between;
+    float: right;
+}
+
+.main-menu{
+    display: flex;
+    align-items: end;
+}
+
+.head-line{
+    display: flex;
+}
+
+.logo-content{
+    display: flex;
+    padding: 15px 16%;
+}
+
+.logo{
+    height: 75px;
+    left: 20px;
+    top: 22px;
+    width: 75px;
+}
+
+body{
+    background-color: rgba(241, 241, 234, 1);
+    font-family: 'nbg', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+    font-size: 1em;
+    line-height: 1;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+.head-menu{
+    display: flex;
+    align-items: center;
+    float: right;
+}
