@@ -26,6 +26,8 @@ li{
 
 .head-line{
     display: flex;
+    border-bottom: 2px #333333 solid;
+    border-top: 2px #333333 solid;
 }
 
 .head-menu li:hover{
