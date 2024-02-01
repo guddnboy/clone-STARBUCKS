@@ -8,6 +8,9 @@ li{
     padding: 5px;
     text-align: center;
     width: auto;
+}
+
+.head-menu > li {
     display: flex;
 }
 
