@@ -66,18 +66,18 @@ li{
 }
 
 .main-menu li:nth-child(-n+3){
-    width: 90px;
+    width: 100px;
 }
 
 .main-menu li:nth-child(4){
     width: 150px;
 }
 
-.main-menu li:nth-child(n+5):nth-child(n+6){
-    width: 200px;
+.main-menu li:nth-child(n+5){
+    width: 190px;
 }
 
-.main-menu li:last-child{
+.main-menu li:nth-child(7){
     width: 130px;
 }
 
