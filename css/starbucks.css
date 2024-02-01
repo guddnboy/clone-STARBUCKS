@@ -11,7 +11,7 @@ li{
 }
 
 .head-menu > li {
-    display: flex;
+    flex-wrap: nowrap;
 }
 
 /* header 태그 스타일 속성들 */
