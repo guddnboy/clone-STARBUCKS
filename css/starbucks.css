@@ -10,8 +10,18 @@ li{
     width: auto;
 }
 
-li:hover{
+.head-menu li:hover{
     cursor: pointer;
+}
+
+.head-menu li::after{
+    padding-left: 5px;
+    content: "|";
+    color: gainsboro;
+}
+
+.head-menu li:last-child::after{
+    content: "";
 }
 
 .head-menu{
@@ -22,16 +32,31 @@ li:hover{
     font-size: 13px;
 }
 
+.h-menu:hover{
+    text-decoration: dashed;
+}
+
+.h-menu{
+    width: auto;
+    text-decoration: none;
+    color: gray;
+}
+
+.h-menu:last-child::before{
+    content: "";
+}
+
+.main-menu li:hover{
+    cursor: pointer;
+
+}
+
 .main-menu{
     display: flex;
     align-items: end;
     font-size: 15px;
     width: 100%;
     justify-content: space-evenly;
-}
-
-.head-line{
-    
 }
 
 .logo-content{
