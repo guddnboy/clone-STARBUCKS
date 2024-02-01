@@ -12,6 +12,7 @@ li{
 
 .head-menu li:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .head-menu li::after{
