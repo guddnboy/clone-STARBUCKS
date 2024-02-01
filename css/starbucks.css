@@ -37,9 +37,13 @@ li{
 }
 
 .head-menu{
-    justify-content: space-between;
+    justify-content: center;
     font-size: 13px;
-    margin: 10px 13px;
+    margin: 0px 13px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
 }
 
 .h-menu:hover{
@@ -47,14 +51,30 @@ li{
 }
 
 .h-menu{
-    width: auto;
+    flex-wrap: nowrap;
     text-decoration: none;
     color: #333333;
 }
 
-.h-menu:last-child::before{
-    content: "";
+.search-wrapper{
+    background-color: white;
+    border-radius: 3px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #3333 solid;
+    border-radius: 4px;
 }
+
+
+.search{
+    width: 21px;
+    height: 21px;
+
+}
+
 
 .main-menu li:hover{
     cursor: pointer;
