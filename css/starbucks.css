@@ -10,6 +10,17 @@ li{
     width: auto;
 }
 
+.logo-wrapper{
+    width: 550px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.head-line{
+    display: flex;
+}
+
 .head-menu li:hover{
     cursor: pointer;
     text-decoration: underline;
@@ -27,10 +38,8 @@ li{
 
 .head-menu{
     justify-content: space-between;
-    position: absolute;
-    top: 3%;
-    right: 22%;
     font-size: 13px;
+    margin: 10px 13px;
 }
 
 .h-menu:hover{
@@ -52,17 +61,25 @@ li{
 
 }
 
+.m-menu{
+    font-size: 13px;
+    color: gray;
+}
+
 .main-menu{
     display: flex;
-    align-items: end;
     font-size: 15px;
     width: 100%;
     justify-content: space-evenly;
+    float: right;
 }
 
 .logo-content{
     display: flex;
-    padding: 15px 16%;
+    padding: 0px 10%;
+    width: 75px;
+    height: 75px;
+    margin: 17px;
 }
 
 .logo{
