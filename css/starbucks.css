@@ -14,6 +14,67 @@ li{
     flex-wrap: nowrap;
 }
 
+
+.hidden-menu{
+    position: relative;
+    z-index: 2;
+    background-color: #333333;
+    color: gainsboro;
+}
+
+.hidden-menu-coffee,
+.hidden-menu-menu,
+.hidden-menu-store,
+.hidden-menu-response,
+.hidden-menu-reward,
+.hidden-menu-sales,
+.hidden-menu-new{
+    display: none;
+}
+
+#coffee-menu:hover{
+    .hidden-menu-coffee{
+        display: block;
+    }
+
+}
+
+#menu-menu:hover{
+    .hidden-menu-menu{
+        display: block;
+    }
+}
+
+#store-menu:hover{
+    .hidden-menu-store{
+        display: block;
+    }
+}
+
+#response-menu:hover{
+    .hidden-menu-response{
+        display: block;
+    }
+}
+
+#reward-menu:hover{
+    .hidden-menu-reward{
+        display: block;
+    }
+}
+
+#sales-menu:hover{
+    .hidden-menu-sales{
+        display: block;
+    }
+}
+
+#new-menu:hover{
+    .hidden-menu-new{
+        display: block;
+    }
+}
+
 /* header 태그 스타일 속성들 */
 
 
