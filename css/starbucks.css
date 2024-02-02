@@ -10,6 +10,10 @@ li{
     width: auto;
 }
 
+ul{
+    margin: 0px;
+}
+
 .head-menu > li {
     flex-wrap: nowrap;
 }
@@ -29,14 +33,16 @@ li{
 .hidden-menu-reward,
 .hidden-menu-sales,
 .hidden-menu-new{
-    display: none;
+    width: 100%;
+    background-color: #333333;
+    color: gainsboro;
+    z-index: 2;
 }
 
 #coffee-menu:hover{
     .hidden-menu-coffee{
-        display: block;
+    display: none;
     }
-
 }
 
 #menu-menu:hover{
@@ -214,6 +220,13 @@ body{
 }
 
 /* main-screen 스타일 속성들 */
+
+.hidden-menu-hide{
+    display: flex;
+    width: 100%;
+    background-color: #333333;
+    color: gainsboro;
+}
 
 .main-promotion-img > img{
     width: 100%;
