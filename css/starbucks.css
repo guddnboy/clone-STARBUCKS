@@ -144,7 +144,6 @@ ul{
     border-radius: 4px;
 }
 
-
 .search{
     width: 21px;
     height: 21px;
@@ -230,4 +229,89 @@ body{
 
 .main-promotion-img > img{
     width: 100%;
+}
+
+.notice-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 62px;
+    font-size: 16px;
+    font: '맑은 고딕';
+}
+
+.notice{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    background-color: #111;
+    color: gainsboro;
+    justify-content: center;
+    align-items: center;
+}
+
+.promotion{
+    width: 50%;
+    display: flex;
+    background-color: #f6f5ef;
+    text-align: center;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reward-wrapper{
+    margin-left: 40px;
+}
+
+.reward-img > img{
+    width: 175px;
+    height: 150px;
+}
+
+.reward-notice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e3932;
+    color: #f6f5ef;
+    width: 100%;
+    height: 30%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.reward-title{
+    font-size: 20px;
+}
+
+.reward-content{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.reward-btns{
+    margin-left: 100px;
+}
+
+.reward-signup{
+    color: #fff;
+    background-color: #00704A;
+    border-radius: 6px;
+    border: none;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.reward-login{
+    width: 90px;
+    height: 40px;
+    color: #ffffff;
+    border: #ffffff solid;
+    background-color: #1e3932;
+    border-radius: 6px;
 }
