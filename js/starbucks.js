@@ -6,7 +6,7 @@ const response = document.querySelector('.hidden-menu-response');
 const reward = document.querySelector('.hidden-menu-reward');
 const sales = document.querySelector('.hidden-menu-sales');
 const new_menu = document.querySelector('.hidden-menu-new');
-
+let cnt = 0;
 
 const coffee_menu = document.querySelector('#coffee-menu');
 coffee_menu.addEventListener('mouseover', showCoffee);
@@ -40,7 +40,7 @@ new_menu_menu.addEventListener('mouseout', hideNew);
 
 
 function showCoffee(){
-    coffee.style.display = 'block'; 
+    coffee.style.display = 'block';
 }
 
 function showMenu(){
@@ -94,3 +94,26 @@ function hideSales(){
 function hideNew(){
     new_menu.style.display = 'none';
 }
+
+
+function rotateNotice(){
+    const notices = document.querySelector('.notice ul');
+    if (cnt === 0){
+        notices.style.transform = 'translateY(40px)';
+        cnt += 1;
+        console.log(cnt);
+    }
+    else if(cnt === 1){
+        notices.style.transform = 'translateY(0px)';
+        cnt += 1;
+        console.log(cnt);
+    }
+    else if(cnt === 2){
+        notices.style.transform = 'translateY(-40px)';
+        cnt = 0;
+        console.log(cnt);
+    }
+    
+}
+
+setInterval(rotateNotice, 2000);
